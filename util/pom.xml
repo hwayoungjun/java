@@ -85,6 +85,18 @@
             <artifactId>sts</artifactId>
             <optional>${software.amazon.awssdk.sts.optional}</optional>
         </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>eks</artifactId>
+            <version>2.43.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>url-connection-client</artifactId>
+            <version>2.43.2</version>
+            <scope>test</scope>
+        </dependency>
 
 
         <!-- test dependencies -->
